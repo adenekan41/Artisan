@@ -17,7 +17,8 @@ function scrollFunction() {
          document.getElementById("navbar").style.boxShadow = "none";
           $('a#read-article').css("color", "white");
            $('#navbar').removeClass('animated fadeIn');
-           $(".welcome_text").css("padding-top" , "8%");
+           $('#navbar').css("position" , "relative");
+           // $(".welcome_text").css("padding-top" , "8%");
     }
 }
 
