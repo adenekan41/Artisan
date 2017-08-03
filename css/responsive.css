@@ -63,6 +63,7 @@
 	}
 	.welcome_text h1{
 		color: white;
+		
 		animation-delay: 1s;
 		font-size: 2em;
 	}

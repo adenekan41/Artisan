@@ -346,7 +346,69 @@ footer hr{
 	width: 100%;
 	min-height: 40px;
 }
-
+.login-well{
+	border-radius: 1px;
+	background-color: transparent;
+	box-shadow: none;
+	margin-top: 15%;
+	border: none;
+	color: white;
+	filter: blur(0px) !important;
+	padding: 30px;
+}
+#login input{
+	border-radius: 1px;
+	margin-bottom: 5%;  
+	color: black;
+	font-family: realway;
+}
+#login button{
+	border-radius: 1px;
+	padding: 9px;
+	margin-bottom: 4%;
+}
+#login a{
+	color:  #3e97e4 !important;
+	text-decoration: none !important;
+}
+#login i{
+	font-size: 3em ;
+	color: white;
+	text-align: center !important;
+	margin-bottom: 5%;
+}
+#login p{
+	padding-bottom: 2%;
+}
+.btr {
+    border-radius: 50% !important;
+    padding: 7px 12px !important;
+    margin-left: 3%;
+    background: black;
+    outline: none !important;
+}
+.btr i{
+	font-size: 12px !important;
+}
+.page-bg {
+	/* background-image: url(https://static.pexels.com/photos/401684/pexels-photo-401684.jpeg); */
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(../img/less.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	  -webkit-filter: blur(5px);
+	  -moz-filter: blur(5px);
+	  -o-filter: blur(5px);
+	  -ms-filter: blur(5px);
+	  filter: blur(5px);
+	  position: fixed;
+	  width: 100%;
+	  height: 100%;
+	  top: 0;
+	  left: 0;
+	  overflow-y: hidden !important;
+	  z-index: -1;
+}
 
 
 
