@@ -1,0 +1,132 @@
+@media( max-width : 585px ) {
+	.welcome_text form{
+		display: none;
+	}
+	.features{
+		text-align: center;
+	}
+	.meet-thumb img{
+		min-height: 300px;
+		max-height: 300px;
+		width: 100%;
+	}
+	.features img{
+		margin-left: 40%;
+	}
+	.mobile-btn{
+		animation-delay: 2s;
+		margin-top: 4.5%;
+		padding: 9px 48px;
+		display: block;
+	}
+	.welcome_text h1{
+		color: white;
+		animation-delay: 1s;
+		font-size: 2em;
+	}
+	.welcome_text{
+		padding-top: 4%;
+	}
+	.main {
+		background-size: cover;
+		background-position: inherit;
+		background-attachment: inherit;
+	}
+	.unshown{
+		display: none;
+	}
+	.diffrent{
+		text-align: center !important;
+	}
+	.diffrent p{
+		text-align: center !important;	
+	}
+	.diffrent hr{
+		margin-left: 50%;
+	}
+}
+@media( max-width : 989px ) {
+	.welcome_text form{
+		display: none;
+	}
+	.mobile-btn{
+		animation-delay: 2s;
+		margin-top: 4.5%;
+		padding: 9px 48px;
+		display: block;
+	}
+	.features img{
+		margin-left: 40%;
+	}
+	.features{
+		text-align: center;
+	}
+	.welcome_text h1{
+		color: white;
+		animation-delay: 1s;
+		font-size: 2em;
+	}
+	.unshown{
+		display: none;
+	}
+	.welcome_text{
+		padding-top: 4%;
+	}
+	.main {
+		background-size: cover;
+		background-position: inherit;
+		background-attachment: inherit;
+	}
+	.meet-thumb img{
+		min-height: 300px;
+		max-height: 300px;
+		width: 100%;
+	}
+	.diffrent{
+		text-align: center !important;
+	}
+	.diffrent p{
+		text-align: center !important;	
+	}
+	.diffrent hr{
+		margin-left: 50%;
+	}
+}
+@media( max-width : 220px ){
+	.mobile-btn{
+		animation-delay: 2s;
+		margin-top: 4.5%;
+		padding: 9px 18px;
+		display: block;
+	}
+	.diffrent hr{
+		margin-left: 50%;
+	}
+	.features img{
+		margin-left: 40%;
+	}
+	.diffrent{
+		text-align: center !important;
+	}
+	.service button{
+		padding: 9px 2px !important;
+		margin-left: 0%;
+	}
+	.diffrent img{
+		display: none;
+	}
+	.unshown{
+		display: none;
+	}
+	.meet-thumb img{
+		min-height: 300px;
+		max-height: 300px;
+		width: 100%;
+	}
+	.features{
+		text-align: center;
+	}
+	.diffrent p{
+		text-align: center !important;	
+	}
+}

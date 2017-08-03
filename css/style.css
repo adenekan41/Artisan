@@ -1,0 +1,356 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;	
+}
+body{
+	padding-right: 0px !important;
+}
+a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[type="value"]{
+	font-family: realway !important;
+}
+@font-face{
+	font-family: realway;
+	src:url(../fonts/Quicksand-Light.ttf);
+}
+@font-face{
+	font-family: artisan;
+	src:url(../fonts/Muli-Light.ttf);
+}
+.main {
+    /* background-image: url(https://static.pexels.com/photos/401684/pexels-photo-401684.jpeg); */
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(../img/less.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    width: 100%;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.76);
+    background-size: cover;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    border-bottom:1px solid #3e97e4;
+    padding-bottom: 8px;
+}
+
+.navbar-brand  {
+    
+    font-weight: 900;
+    color: white !important;
+    
+}
+.navbarand{
+	color: white !important;
+}
+.welcome_text{
+	padding-top: 4%;
+}
+.welcome_text h1{
+	color: white;
+	animation-delay: 1s;
+
+}
+.welcome_text p{
+	color: white;
+	animation-delay: 1.5s;
+	padding-bottom: 1.5%;
+}
+.welcome_text input{
+	border-radius: 1px !important;
+	color: black;
+	margin-bottom: 2%;
+}
+.welcome_text form{
+	animation-delay: 2.4s;
+}
+.welcome_text select{
+	border-radius: 1px !important;
+	color: black;
+	font-family: realway;
+	margin-bottom: 2%;
+}
+.welcome_text button{
+	border-radius: 1px;
+	margin-bottom: 2%;
+}
+.service{
+	margin-top: 5%;
+}
+.service button{
+	padding: 8px 40px;
+	border-radius: 1px;
+	margin-top: 2%;
+	background-color: #3e97e4;
+	border:1px solid #3e97e4;
+	margin-left: 2%;
+}
+.service h1{
+}
+.service hr{
+	width: 8%;
+	text-align: center;
+	margin-bottom: 1.5%;
+	height: 3px !important;
+	background-color: #3e97e4;
+}
+.service p{
+	line-height: 1.4em;
+}
+.features img{
+	height: 100px;
+	width: 100px;
+	padding-bottom: 2%;
+}
+.features h5{
+	padding-bottom: 3%;
+}
+.features p{
+	line-height: 1.62em;
+	text-align: justify;
+}
+.features{
+	margin-top: 10%;
+}
+/*brain behine scroll bars*/
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.1); 
+    border-radius: 50px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 1px;
+   /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); */
+   background-color: #3e97e4;
+    /*background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);*/
+}
+
+
+/*login section*/
+/*.log-in{
+	background-size: cover;
+	height: 600px;
+	background: linear-gradient(rgba(0,0,0,0.43),rgba(0,0,0,0.43)),url(http://freedesignfile.com/upload/2014/05/Modern-city-building-design-vector-material-04.jpg);
+}*/
+.mobile-btn{
+	display: none;
+}
+.modal-header {
+    padding: 15px;
+     border-bottom: 1px solid transparent; 
+}
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 1px;
+    padding: 30px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.45) !important;
+}
+#myemail{
+	display: none;
+}
+#myemail select{
+		border-radius: 1px;
+		font-family: realway;
+	}
+	#myemail input{
+		border-radius: 1px;
+		font-family: realway;
+	}
+	#myemail button{
+		border-radius: 1px;
+		font-family: realway;
+	}
+	#myemail h3{
+		padding-bottom: 3.3%;
+	}
+	.diffrent{
+		margin-top: 4%;
+	}
+	.diffrent h3{
+		margin-top: 16%;
+		margin-bottom: -1%;
+	}
+	.diffrent p{
+		line-height: 1.65em;
+		text-align: justify;
+	}
+	.diffrent hr{
+	width: 8%;
+	text-align: center;
+	margin-bottom: 4%;
+	height: 3px !important;
+	background-color: #3e97e4;
+}
+.diffrent button{
+	border-radius: 1px;
+	padding: 9px 50px;
+	background-color: #3e97e4;
+	border: 1px solid #3e97e4;
+}
+.diffrent i{
+	color: #3e97e4 !important;
+}
+.vedio{
+	 background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.53)), url(../img/bris.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    width: 100%;
+    padding-top: 2%;
+    margin-top: 6%;
+    color: white;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.76);
+    background-size: cover;
+}
+.vedio h2{
+	color: white;
+}
+.vedio i{
+	font-size: 2.2em;
+}
+.meet{
+	margin-top: 5.5%;
+	margin-bottom: 5%;
+}
+.meet .meet-thumb {
+    width: 100%;
+    position: relative;
+    margin-bottom: 5%;
+}
+.meet .meet-thumb:hover .meet-desk {
+    color: #ffffff;
+    height: 100%;
+    background-color:#0a4373;
+    padding-top: 20%;
+    opacity: 0.85;
+}
+.social-icon {
+    padding: 0;
+    margin: 0;
+}
+.social-icon li {
+    list-style: none;
+    display: inline-block;
+}
+.social-icon li i {
+    border-radius: 100px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: black;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 12px;
+    margin-right: 10px;
+}
+.social-icon li i:hover{
+	background-color: rgba(0,0,0,0.43);
+}
+.meet .meet-desk {
+    background: rgba(0, 0, 0, 0.74);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.50);
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 75px;
+    overflow: hidden;
+    transition: height 450ms;
+}
+.meet .meet-desk h3{
+	margin-top: 6px;
+}
+.meet-thumb img{
+	min-height: 250px;
+	max-height: 250px;
+	width: 100%;
+}
+.meet button{
+	border-radius: 1px;
+	padding: 9px 50px;
+	margin-top: 4%;
+	background-color: #3e97e4;
+	border: 1px solid #3e97e4;
+}
+.meet p{
+	margin-bottom: 4%;
+}
+footer h3{
+	margin-bottom: -11px;
+}
+footer{
+	box-shadow: 0 2px 15px rgba(0,0,0,0.55);
+	padding-top: 3%;
+	background-image:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url(../img/footer.png);
+	background-size: cover;
+	color: white;
+	margin-top: 4%;
+	background-attachment: fixed;
+	padding-bottom: 5%;
+	border-top: 1px solid #3e97e4;
+}
+footer p{
+	line-height: 1.65em;
+}
+footer input{
+	border-radius: 1px !important;
+}
+footer textarea{
+	border-radius: 1px !important;
+	font-family: realway !important;
+}
+footer button{
+	border-radius: 1px !important;
+	padding: 9px !important;
+	background-color: #3e97e4 !important;
+	border: 1px solid #3e97e4 !important;
+}
+footer hr{
+	width: 20%;
+	margin-bottom: 4.5%;
+	height: 3px !important;
+	border:none;
+	background-color: #3e97e4;
+}
+.get{
+	margin-bottom: 12px;
+}
+.extended{
+	background: #3e97e4;
+	color: white;
+	padding: 22px;
+	width: 100%;
+	min-height: 40px;
+}
+
+
+
+
+
+
+
+
