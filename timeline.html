@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Artisan INC</title>  
+  <link rel="icon" type="image/jpg" href="img/artisan.png">
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="charset=utf-8" />
+  <meta name="author" content="wonderful | Adnekan" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="A community focused developer.">
+  <meta name="keywords" content="wonderful , programming, software, code, tech, computer stuff, games, cheatsheet, html, css, javascript, websites, website development, web development, design, ui, ux" />
+  <meta property="og:locale" content="en-US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Wonderful" />
+  <meta property="og:description" content="A community focused on code and developers." />
+  <meta property="og:url" content="http://www.thegazine.blogspot.com" />
+  <meta property="og:site-name" content="wonderful" />
+  <meta property="article:publisher" content="https://facebook.com/wondertechnologies" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="wonderful" />
+  <meta name="twitter:site" content="@w_adenekan" />
+  <meta name="twitter:domain" content="" />
+  <!-- css frame works -->
+ <link rel="stylesheet" href="css/normalize.css" type="text/css">
+<!--  <bootstrap framworks> -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/materialpaper.css"> -->
+  <!-- <font awesome> -->
+ <!--  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  <link rel="stylesheet" type="text/css" href=" css/material-icon.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <!-- <custom stylings> -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- <Custom Animations> -->
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <!-- <reponsiveness css> -->
+  <link rel="stylesheet" type="text/css" href=" css/responsive.css">
+  <!-- <end of custom animation> -->
+  
+</head>
+
+<!-- <end of head> -->
+<body onload="myLoader()" >
+  <div id="loaders"></div>
+  <div id="myDiv" class="animate-bottom">
+    <!-- <herader sction> -->
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top animated bounce" id="navbar" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon icon-bar"></span>
+                  <span class="icon icon-bar"></span>
+                  <span class="icon icon-bar"></span>
+              </button><!-- <end of buton> -->
+              <a href="#" class="navbar-brand read-article" id="read-article"><i class="fa fa-bars navbarand" id="profile-view" onclick="myFunction()"><b>Profile</b></i><i class="material-icons navbarand">flash_auto</i></button></a>
+            </div><!-- <end of navbar-header> -->
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav " >
+                <li><a href="index.html" class="smoothScrol read-article" id="read-article">Home</a></li>
+                <li><a href="#" class="smoothScrol read-article" id="read-article">About</a></li>
+                <li><a href="#" class="smoothScrol read-article" id="read-article">Gallery</a></li>
+                <li><a href="#" class="smoothScrol read-article" id="read-article">Teams</a></li>
+                <li><a href="#" class="smoothScrol read-article" id="read-article">Contact</a></li>
+              </ul><!-- <end of navbar left> -->
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" class="smoothScrol read-article" id="read-article" data-toggle="modal" data-target="#myemail"><i class="material-icons">inbox</i> </a></li>
+                <li><a href="login.html" id="read-article"><i class="material-icons">add_circle</i> </a></li>
+                 <li><a href="login.html" class="smoothScrol read-article" id="read-article">Login</a></li>
+              </ul><!-- <end of navbar right> -->
+            </div><!-- <end of navbar-collaspe> -->
+          </div><!-- <end of Container> -->
+        </nav>
+    </header>
+    <!-- <end of header section> -->
+    <!-- <min section> -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="left-bar">
+            <div class="col-md-3">
+              
+              <div id="mySidenav" class="sidenav">
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="well cool-well">
+                  <h3 class="text-center">ARTISAN</h3>
+                  <hr>
+                  <center>
+                    <img src="img/p2.jpeg" class="img-responsive img-circle">
+                  </center>
+                  <h4 class="text-center">Adenekan Wonderful</h4>
+                  <!-- <p class="text-center">web developer , plumber , engeeneer , mechanic , baker- chef , cooker , driver <span class="label label-default">Add More</span></p> -->
+                  <button type="button" class="btn btn-primary btn-block brtt">Retweet A geek </button>
+                  <button type="button" class="btn btn-primary btn-block">Check Geeks </button>
+                  <a href="editprofile.html"><button type="button" class="btn btn-primary btn-block">Edit Profile</button></a>
+                  <button type="button" class="btn btn-primary btn-block">Check Movement </button>
+                  
+                  </div>
+              </div>
+
+            </div>
+          </div>
+            <div class="col-md-9 collar">
+               <div class="well bg-well">
+                    <h1 class="text-center">Adenekan Wonderful</h1>
+                    <p class="text-center">web developer, plumber, engeeneer, mechanic , baker chef,cooker,driver</p>
+                    <img src="img/p2.jpeg" class="img-responsive float-img">
+                </div><br><br>
+                <div class="row">
+                  <div class="col-md-7">
+                    <textarea class="form-control textareas" placeholder="Your message here"></textarea>
+                    <div class="well text-well">
+                      <div class="media">
+                        <div class="media-body">
+                          <p class=""><i class="material-icons">play_arrow</i>
+                          <i class="material-icons">videocam</i>
+                          <i class="material-icons">mic</i>
+                          <i class="material-icons">music_video</i></p>
+                        </div>
+                        <div class="media-right">
+                          <a href="#" class="btn btn-primary">Tweet</a>
+                        </div>
+                      </div>
+                    </div><br><br>
+                    <div class="well tweet-well">
+                      <div class="media">
+                        <div class="media-left">
+                          <img src="img/p2.jpeg" class="img-responsive img-circle p-img">
+                        </div>
+                        <div class="media-body">
+                          <h4 class="exp-p">Adenkan Wonderful</h4>
+                          <p>Just posted on Friday</p>
+                          <hr>
+                        </div>
+                      </div>
+                      <img src="img/bg.jpeg" class="img-responsive tweet-img">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                      <p class="text-right"><i class="fa fa-share-alt"> &nbsp;<b>20</b></i>&nbsp;<i class="fa fa-bullhorn"> &nbsp;<b>200</b></i>&nbsp;<i class="fa fa-heart"> &nbsp;<b>22,200</b></i></p>
+                    </div>
+                    <div class="well tweet-well">
+                      <div class="media">
+                        <div class="media-left">
+                          <img src="img/p2.jpeg" class="img-responsive img-circle p-img">
+                        </div>
+                        <div class="media-body">
+                          <h4 class="exp-p">Adenkan Wonderful</h4>
+                          <p>Just posted on Friday</p>
+                          <hr>
+                        </div>
+                      </div>
+                      <img src="img/artisan.jpg" class="img-responsive tweet-img">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p class="text-right"><i class="fa fa-share-alt"> &nbsp;<b>20</b></i>&nbsp;<i class="fa fa-bullhorn"> &nbsp;<b>200</b></i>&nbsp;<i class="fa fa-heart"> &nbsp;<b>22,200</b></i></p>
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="other-tweet">
+                      <div class="well other-well">
+                        <div class="media">
+                          <div class="media-left">
+                            <img src="img/worker3.jpg" class="img-responsive img-circle p-img">
+                          </div>
+                          <div class="media-body">
+                            <h4 class="exp-p">Gellinna Joy</h4>
+                            <p>Just posted on 3rd march Friday</p>
+                            <hr>
+                          </div>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          <p class="text-right"><i class="fa fa-share-alt"> &nbsp;<b>20</b></i>&nbsp;<i class="fa fa-bullhorn"> &nbsp;<b>200</b></i>&nbsp;<i class="fa fa-heart"> &nbsp;<b>22,200</b></i></p>
+                        </div>
+                      </div>
+                      <div class="well other-well">
+                        <div class="media">
+                          <div class="media-left">
+                            <img src="img/p2.jpeg" class="img-responsive img-circle p-img">
+                          </div>
+                          <div class="media-body">
+                            <h4 class="exp-p">Adenkan Wonderful</h4>
+                            <p>Just posted on 3rd march Friday</p>
+                            <hr>
+                          </div>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                          <p class="text-right"><i class="fa fa-share-alt"> &nbsp;<b>20</b></i>&nbsp;<i class="fa fa-bullhorn"> &nbsp;<b>200</b></i>&nbsp;<i class="fa fa-heart"> &nbsp;<b>22,200</b></i></p>
+                        </div>
+                      </div>
+                      <div class="well other-well">
+                        <div class="media">
+                          <div class="media-left">
+                            <img src="img/p3.jpeg" class="img-responsive img-circle p-img">
+                          </div>
+                          <div class="media-body">
+                            <h4 class="exp-p">Adenkan Wonderful</h4>
+                            <p>Just posted on 3rd march Friday 2014</p>
+                            <hr>
+                          </div>
+                          <p>Happy Birthday Wonderful</p>
+                          <p class="text-right"><i class="fa fa-share-alt"> &nbsp;<b>20</b></i>&nbsp;<i class="fa fa-bullhorn"> &nbsp;<b>200</b></i>&nbsp;<i class="fa fa-heart"> &nbsp;<b>22,200</b></i></p>
+                        </div>
+                      </div>
+                      <div class="well other-well">
+                        <div class="media">
+                          <div class="media-left">
+                            <img src="img/worker3.jpg" class="img-responsive img-circle p-img"><br>
+                          </div>
+                          <div class="media-body">
+                            <h4 class="exp-p">Gelinna Joy</h4>
+                            <p>Sent you a Picture</p>
+                            <hr>
+                          </div>
+                          <img src="img/bred.jpg" class="img-responsive">
+                          <p class="text-right"><i class="fa fa-share-alt"> &nbsp;<b>20</b></i>&nbsp;<i class="fa fa-bullhorn"> &nbsp;<b>200</b></i>&nbsp;<i class="fa fa-heart"> &nbsp;<b>22,200</b></i></p>
+                        </div>
+                      </div>
+                      <div class="well other-well">
+                        <div class="media">
+                          <div class="media-left">
+                            <img src="img/p2.jpeg" class="img-responsive img-circle p-img">
+                          </div>
+                          <div class="media-body">
+                            <h4 class="exp-p">Sndar Mazes</h4>
+                            <p>Just posted on 3rd march Friday</p>
+                            <hr>
+                          </div>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                          <p class="text-right"><i class="fa fa-share-alt"> &nbsp;<b>20</b></i>&nbsp;<i class="fa fa-bullhorn"> &nbsp;<b>200</b></i>&nbsp;<i class="fa fa-heart"> &nbsp;<b>22,200</b></i></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <end of section> -->
+    <footer>
+      
+    </footer>
+    <!-- <enf ooter> --> 
+  </div>
+<script type="" src="js/jqey.js"></script>
+<script type="" src="js/boots.js"></script>
+<script type="text/javascript">
+  var buttons = document.getElementById('profile-view');
+  var sidenav = document.getElementById('mySidenav');
+
+  function myFunction(){
+   $('.sidenav').css("width" , "85%");
+  }
+  function closeNav() {
+    $('.sidenav').css("width" , "0%");
+}
+</script>
+<script type="text/javascript">
+  var myVar;
+
+function myLoader() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loaders").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+</body>
+</html>

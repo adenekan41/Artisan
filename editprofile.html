@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Artisan INC</title>  
+  <link rel="icon" type="image/jpg" href="img/artisan.png">
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="charset=utf-8" />
+  <meta name="author" content="wonderful | Adnekan" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="A community focused developer.">
+  <meta name="keywords" content="wonderful , programming, software, code, tech, computer stuff, games, cheatsheet, html, css, javascript, websites, website development, web development, design, ui, ux" />
+  <meta property="og:locale" content="en-US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Wonderful" />
+  <meta property="og:description" content="A community focused on code and developers." />
+  <meta property="og:url" content="http://www.thegazine.blogspot.com" />
+  <meta property="og:site-name" content="wonderful" />
+  <meta property="article:publisher" content="https://facebook.com/wondertechnologies" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="wonderful" />
+  <meta name="twitter:site" content="@w_adenekan" />
+  <meta name="twitter:domain" content="" />
+  <!-- css frame works -->
+ <link rel="stylesheet" href="css/normalize.css" type="text/css">
+<!--  <bootstrap framworks> -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/materialpaper.css"> -->
+  <!-- <font awesome> -->
+ <!--  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  <link rel="stylesheet" type="text/css" href="	css/material-icon.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <!-- <custom stylings> -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- <Custom Animations> -->
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <!-- <reponsiveness css> -->
+  <link rel="stylesheet" type="text/css" href="	css/responsive.css">
+  <!-- <end of custom animation> -->
+  
+</head>
+
+<!-- <end of head> -->
+<body onload="myLoader()" >
+  <div id="loadering"></div>
+  <div class="editpage animate-bottom" id="myDiv">
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top animated bounce" id="navbar" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon icon-bar"></span>
+                  <span class="icon icon-bar"></span>
+                  <span class="icon icon-bar"></span>
+              </button><!-- <end of buton> -->
+              <a href="#" class="navbar-brand read-article" id="read-article"><i class="fa fa-bars navbarand" id="profile-view" onclick="myFunction()"><b>Profile</b></i><i class="material-icons navbarand">flash_auto</i></button></a>
+            </div><!-- <end of navbar-header> -->
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav " >
+                <li><a href="index.html" class="smoothScrol read-article" id="read-article">Home</a></li>
+                <li><a href="#" class="smoothScrol read-article" id="read-article">About</a></li>
+                <li><a href="#" class="smoothScrol read-article" id="read-article">Gallery</a></li>
+                <li><a href="#" class="smoothScrol read-article" id="read-article">Teams</a></li>
+                <li><a href="#" class="smoothScrol read-article" id="read-article">Contact</a></li>
+              </ul><!-- <end of navbar left> -->
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" class="smoothScrol read-article" id="read-article" data-toggle="modal" data-target="#myemail"><i class="material-icons">inbox</i> </a></li>
+                <li><a href="login.html" id="read-article"><i class="material-icons">add_circle</i> </a></li>
+                 <li><a href="login.html" class="smoothScrol read-article" id="read-article">Login</a></li>
+              </ul><!-- <end of navbar right> -->
+            </div><!-- <end of navbar-collaspe> -->
+          </div><!-- <end of Container> -->
+        </nav>
+    </header>
+    <section>
+    <div class="editing">
+      <h2>Edit Your profile</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-8">
+            <div class="well editing-wells">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="img/default-avatar.png" class="img-responsive img-circle">
+                  <div class="change-img">
+                    <i class="fa fa-plus text-center"></i>
+                    <p>change Image</p>  
+                  </div>
+                  
+                  <button type="button" class="btn btn-primary">change profile image</button>
+                </div>
+                <div class="col-md-8">
+                  <h4><b>Name:</b> Adenekan wonderful</h4>
+                  <input type="text" name="" class="form-control" placeholder="Adenekan Wonderful">
+                  <p><b>Discription:</b> Hi There I am Using Artisan</p>
+                  <textarea class="form-control" placeholder="Add Your Discription"></textarea>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4><i class="fa fa-map-marker"></i> &nbsp;Location</h4>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" name="" placeholder="Location" class="form-control">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4><i class="fa fa-laptop"></i> &nbsp;Website</h4>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" name="" placeholder="Website" class="form-control">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4><i class="fa fa-phone"></i> &nbsp;Phone</h4>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" name="" placeholder="Phone Number" class="form-control">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4><i class="fa fa-facebook"></i> &nbsp;Facebook</h4>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" name="" placeholder="Facebook" class="form-control">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4><i class="fa fa-twitter"></i> &nbsp;Twitter</h4>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" name="" placeholder="Twitter" class="form-control">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4><i class="fa fa-map-signs"></i> &nbsp;Artisan Id</h4>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" name="" placeholder="Artisan Id" class="form-control">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4><i class="fa fa-envelope"></i> &nbsp;Email</h4>
+                    </div>
+                    <div class="col-md-8">
+                      <input type="text" name="" placeholder="Change Email" class="form-control">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h4><i class="fa fa-address-card-o"></i> &nbsp;Address</h4>
+                    </div>
+                    <div class="col-md-8">
+                      <textarea type="text" name="" placeholder="Your Home Address" class="form-control"></textarea>
+                    </div>
+                  </div>
+                  <a href="timeline.html"><button type="button" class="btn btn-primary">Save Profile</button></a> &nbsp;  <a href="timeline.html"><button type="button" class="btn btn-default">Cancle</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <div class="edit-page-bg">
+    </div>
+  </div>
+  <script type="" src="js/jqey.js"></script>
+  <script type="" src="js/boots.js"></script>
+  <script type="text/javascript">
+      var myVar;
+
+    function myLoader() {
+        myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+      document.getElementById("loadering").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+</body>
+</html>

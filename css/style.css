@@ -337,7 +337,7 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 	background-color: #3e97e4;
 }
 .get{
-	margin-bottom: 12px;
+	margin-bottom: 12px !important;
 }
 .extended{
 	background: #3e97e4;
@@ -409,7 +409,26 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 	  overflow-y: hidden !important;
 	  z-index: -1;
 }
-
+.edit-page-bg{
+	/* background-image: url(https://static.pexels.com/photos/401684/pexels-photo-401684.jpeg); */
+    background-image: linear-gradient(rgba(255,255,255,0.93),rgba(255,255,255,0.93)), url(../img/procan.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	/*  -webkit-filter: blur(5px);
+	  -moz-filter: blur(5px);
+	  -o-filter: blur(5px);
+	  -ms-filter: blur(5px);
+	  filter: blur(5px);*/
+	  position: fixed;
+	  width: 100%;
+	  height: 100%;
+	  top: 0;
+	  background-size: cover;
+	  left: 0;
+	  overflow-y: hidden !important;
+	  z-index: -1;	
+}
 #loader {
     position: absolute;
     left: 50%;
@@ -421,6 +440,24 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
     border-radius: 50%;
     box-shadow: 0 2px 150px rgba(0,0,0,0.55);
     border-top: 14px solid #3498db;
+    /* border-bottom: 10px solid #3498db; */
+    border-left: 10px crimson;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+#loadering {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    box-shadow: 0 2px 150px rgba(0,0,0,0.55);
+    border-top: 14px solid green;
     /* border-bottom: 10px solid #3498db; */
     border-left: 10px crimson;
     width: 120px;
@@ -484,9 +521,13 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 .left-bar img{
 	height: 120px;
 	width: 120px;
+	border: 2px solid white;
 }
 .left-bar p{
 	line-height: 1.7em;
+}
+.left-bar h4{
+	padding-bottom: 4%;
 }
 .bg-well{
 	background-image:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url(../img/cover.jpeg);
@@ -523,7 +564,7 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 	height: 100%;
 }
 .cool-well hr{
-	margin-top: -1%;
+	/*margin-top:;*/
 }
 .text-well{
 	border-radius: 1px;
@@ -651,4 +692,67 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 
 .sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
+
+}
+.editpage .navbar{
+	position: relative !important;
+}
+.editing h2{
+	text-align: center;
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+.editing-wells{
+	border: none;
+	border-radius: 1px;
+	background: transparent;
+}
+.editing img{
+	height: 150px;
+	width: 150px;
+	position: relative;
+	margin-bottom: 2%;
+	box-shadow: 0 2px 15px rgba(0,0,0,0.24);
+}
+.editing button{
+	border-radius: 1px;
+	padding: 9px;
+	background: #3e97e4;
+	border: 1px solid #3e97e4;
+	margin-top: 2%;
+	box-shadow: 0 2px 15px rgba(0,0,0,0.24);
+}
+.change-img:hover{
+	opacity: 1;
+	color: white;
+}
+.editing .btn-default{
+	background-color: white !important;
+}
+.change-img {
+    position: absolute;
+    top: 0%;
+    color: white;
+    text-align: center;
+    left: 6%;
+    font-size: 1.3em;
+    opacity: 0;
+    height: 149px;
+    padding-top: 22%;
+    width: 151px;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.45);
+    cursor: pointer;
+}
+.editing input{
+	border-radius: 1px;
+	margin-bottom: 5%;
+	box-shadow: 0 2px 15px rgba(0,0,0,0.24);
+}
+.editing textarea{
+	border-radius: 1px;
+	margin-bottom: 5%;	
+	box-shadow: 0 2px 15px rgba(0,0,0,0.24);
+	font-family: realway;
 }
