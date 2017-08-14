@@ -80,29 +80,31 @@
       <div class="container-fluid">
         <div class="row">
           <div class="left-bar">
-            <div class="col-md-3">
+            <div class="col-md-2">
               
               <div id="mySidenav" class="sidenav">
              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <div class="well cool-well">
-                  <h3 class="text-center">ARTISAN</h3>
-                  <hr>
+                <div class="well timeline-well">
+                  
                   <center>
                     <img src="img/p2.jpeg" class="img-responsive img-circle">
                   </center>
-                  <h4 class="text-center">Adenekan Wonderful</h4>
+                  <h5 class="text-center">Adenekan Wonderful</h5>
                   <!-- <p class="text-center">web developer , plumber , engeeneer , mechanic , baker- chef , cooker , driver <span class="label label-default">Add More</span></p> -->
-                  <button type="button" class="btn btn-primary btn-block brtt">Retweet A geek </button>
-                  <button type="button" class="btn btn-primary btn-block">Check Geeks </button>
-                  <a href="editprofile.html"><button type="button" class="btn btn-primary btn-block">Edit Profile</button></a>
-                  <button type="button" class="btn btn-primary btn-block">Check Movement </button>
+                  <input type="text" name="" class="form-control" placeholder="search for somethin...">
+                  <button type="button" class="btn btn-primary btn-block timeline_sidebtn_active">Timeline<i class="fa fa-chevron-right "></i></button>
+                  <button type="button" class="btn btn-primary btn-block ">Retweet A geek <i class="fa fa-gears "></i></button>
+                  <button type="button" class="btn btn-primary btn-block">Check Geeks  <i class="fa fa-bullhorn "></i></button>
+                  
+                  <a href="editprofile.html"><button type="button" class="btn btn-primary btn-block">Edit Profile  <i class="fa fa-edit "></i></button></a>
+                  <button type="button" class="btn btn-primary btn-block">Check Movement  <i class="fa fa-bus"></i></button>
                   
                   </div>
               </div>
 
             </div>
           </div>
-            <div class="col-md-9 collar">
+            <div class="col-md-10 collar">
                <div class="well bg-well">
                     <h1 class="text-center">Adenekan Wonderful</h1>
                     <p class="text-center">web developer, plumber, engeeneer, mechanic , baker chef,cooker,driver</p>
@@ -262,7 +264,7 @@
   var sidenav = document.getElementById('mySidenav');
 
   function myFunction(){
-   $('.sidenav').css("width" , "85%");
+   $('.sidenav').css("width" , "70%");
   }
   function closeNav() {
     $('.sidenav').css("width" , "0%");

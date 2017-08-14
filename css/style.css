@@ -571,10 +571,11 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 
 
 /*profile section*/
-.left-bar img{
-	height: 120px;
-	width: 120px;
-	border: 2px solid white;
+.left-bar img {
+    height: 100px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.75);
+    width: 100px;
+    border: 2px solid white;
 }
 .left-bar p{
 	line-height: 1.7em;
@@ -607,7 +608,7 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 	background: white;
 	box-shadow: 0 2px 15px rgba(0,0,0,0.50);
 }*/
-.cool-well{
+.timeline-well{
 	background: transparent;
 	box-shadow: none;
 	padding: 10px;
@@ -668,17 +669,17 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 
 .sidenav {
     height: 100%;
-    width: 25%;
+    width: 17%;
     margin-top: 4%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #337ab7 !important;
+    background-color:#204d74 !important;
     box-shadow: 0 2px 15px rgba(0,0,0,0.65);
     overflow: hidden !important;
     transition: 0.5s;
-    padding-top: 1px;
+    padding-top: 2%;
 }
 #profile-view{
 	display: none;
@@ -695,14 +696,25 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
     border: 1px solid transparent;
     border-radius: 4px;
 }
-.cool-well button{
-	border-radius: 1px ;
-	background: transparent;
-	margin-bottom: 5%;
-	border: none;
-	outline: none;
+.timeline-well button {
+    border-radius: 1px;
+    background: transparent;
+    margin-bottom: 5%;
+    border: none;
+    outline: none;
+    text-align: left !important;
 }
-.brtt{
+.timeline-well i{
+	text-align: right ;
+	float: right;
+}
+.timeline-well input{
+	margin-bottom: 9%;
+	border-radius: 1px !important;
+	box-shadow: 0 2px 15px rgba(0,0,0,0.43);
+	margin-top: 4%;
+}
+.timeline_sidebtn_active{
 	background-color: #286090 !important;
 }
 .navbar-inverse {
@@ -735,11 +747,9 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
     margin-left: 50px;
 }
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
+    
     transition: 0.3s;
 }
 
