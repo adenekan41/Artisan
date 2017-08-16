@@ -29,6 +29,17 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
     box-shadow: 0 2px 15px rgba(0,0,0,0.76);
     background-size: cover;
 }
+.artisanmain {
+    /* background-image: url(https://static.pexels.com/photos/401684/pexels-photo-401684.jpeg); */
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(../img/showartisan.jpeg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    width: 100%;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.76);
+    background-size: cover;
+}
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -57,8 +68,17 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 .welcome_text{
 	padding-top: 4%;
 }
+.artisanwelcome_text{
+	padding-top: 2%;
+}
 .welcome_text h1{
 	color: white;
+	animation-delay: 1s;
+
+}
+.artisanwelcome_text h1{
+	color: white;
+	padding-bottom: 1%;
 	animation-delay: 1s;
 
 }
@@ -85,8 +105,30 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 	border-radius: 1px;
 	margin-bottom: 2%;
 }
+
+.artisanwelcome_text input{
+	border-radius: 1px !important;
+	color: black;
+	margin-bottom: 2%;
+}
+.artisanwelcome_text form{
+	animation-delay: 2s;
+}
+.artisanwelcome_text select{
+	border-radius: 1px !important;
+	color: black;
+	font-family: realway;
+	margin-bottom: 2%;
+}
+.artisanwelcome_text button{
+	border-radius: 1px;
+	margin-bottom: 2%;
+}
 .service{
 	margin-top: 5%;
+}
+.filled{
+	color: gold !important;
 }
 .service button{
 	padding: 8px 40px;
@@ -352,13 +394,16 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
     position: relative;
     color: white !important;
 }
+.pages{
+	transition: all 1s ease;
+}
 .pages footer h3{
 	margin-bottom: -11px;
 }
 .pages footer{
 	box-shadow: 0 2px 15px rgba(0,0,0,0.55);
 	padding-top: 3%;
-	background-image:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url(../img/footer.png);
+	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../img/footer.png);
 	background-size: cover;
 	color: white;
 	margin-top: 4%;
@@ -375,6 +420,7 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 .pages footer textarea{
 	border-radius: 1px !important;
 	font-family: realway !important;
+	max-width: 360px !important;
 }
 .pages footer button{
 	border-radius: 1px !important;
@@ -552,7 +598,8 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
   -webkit-animation-name: animatebottom;
   -webkit-animation-duration: 1s;
   animation-name: animatebottom;
-  animation-duration: 1s
+  animation-duration: 1s;
+  transition: all 1s ease;
 }
 
 @-webkit-keyframes animatebottom {
@@ -681,6 +728,7 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
     transition: 0.5s;
     padding-top: 2%;
 }
+
 #profile-view{
 	display: none;
 }
@@ -818,4 +866,130 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 	margin-bottom: 5%;	
 	box-shadow: 0 2px 15px rgba(0,0,0,0.24);
 	font-family: realway;
+}
+.all_artisan button {
+	border-radius: 1px;
+	margin-top: 8%;
+}
+.form-top {
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+    left: 0%;
+    padding: 17px 31px 31px;
+    max-height: 67px;
+    box-shadow: rgba(0, 0, 0, 0.76) 0px 7px 15px;
+    top: 0%;
+    transition: all 0.6s ease;
+    width: 100%;
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    display: none;
+    outline: none;
+    background: #3e97e4;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.65);
+    border-radius: 50%;
+    font-size: 10px !important;
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+#erropage h1{
+	font-size: 7em;
+}
+.mage2 {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.mage3 {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 40%;
+    right: 20%;
+}
+.mage4 {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+.mage5 {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 80%;
+    right: 10%;
+}
+.mobile-btn{
+	display:none;
+}
+.mage{
+	height: 300px;
+    width: 300px;
+    transition: all .8s ease;
+    animation-name: ring;
+    animation: ring;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+#erropage button{
+	border-radius: 1px;
+	margin-top: 1%;
+	background: #3e97e4;
+	border: none;
+	padding: 7px 45px;
+}
+@keyframes ring{
+	0%{transform: rotate(25deg);}
+	100%{transform: rotate(-25deg);}
+}
+#myBtn404 {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    display: ;
+    outline: none;
+    background: #3e97e4;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    transition: all .3s ease;
+    border-radius: 50%;
+    font-size: 10px !important;
+    animation-name: pop;
+    animation: pop;
+    animation-duration: .4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes pop{
+	0%{ padding: 18px;}
+	100%{ padding: 22px;}
+}
+
+#myBtn404:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+.artisanshown{
+	display: none;
 }

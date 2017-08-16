@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Artisan INC | Edit Your Profile And Be Known</title>  
+  <!-- <link rel="icon" type="image/jpg" href="img/artisan.png"> -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="charset=utf-8" />
+  <meta name="author" content="wonderful | Adnekan" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="A community focused development for buildeing a great community of artisans">
+  <meta name="keywords" content="artisan, programming, software, code, tech, computer client, work, artisan Inc, electrician, plumber, artisan, websites,money, web development, design, ui, ux" />
+  <meta property="og:locale" content="en-US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Artisan" />
+  <meta property="og:description" content="A community focused development for buildeing a great community of artisans" />
+  <meta property="og:url" content="http://www.thegazine.blogspot.com" />
+  <meta property="og:site-name" content="wonderful" />
+  <meta property="article:publisher" content="https://facebook.com/wondertechnologies" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="wonderful" />
+  <meta name="twitter:site" content="@w_adenekan" />
+  <meta name="twitter:domain" content="" />
+  <!-- css frame works -->
+ <link rel="stylesheet" href="css/normalize.css" type="text/css">
+<!--  <bootstrap framworks> -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/materialpaper.css"> -->
+  <!-- <font awesome> -->
+ <!--  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  <link rel="stylesheet" type="text/css" href="	css/material-icon.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <!-- <custom stylings> -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- <Custom Animations> -->
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <!-- <reponsiveness css> -->
+  <link rel="stylesheet" type="text/css" href="	css/responsive.css">
+  <!-- <end of custom animation> -->
+  
+</head>
+
+<!-- <end of head> -->
+<body>  
+  <!-- main setion of the page -->
+      <section id="erropage"> 
+	      <div class="container text-center">
+	      	<center>
+	      		<img src="img/bells.png" class="img-responsive mage" id="stop">
+	      	</center>
+	      	<h1>404</h1>
+	      	<h5>Page Not Found</h5>
+	      	<center>	
+				<a href="index.html"><button type="button" class="btn btn-primary">Back To Home Page</button></a>
+	      	</center>
+	      	<!-- <img src="img/browser.png" class="img-responsive mage2">
+	      	<img src="img/browser.png" class="img-responsive mage3">
+	      	<img src="img/browser.png" class="img-responsive mage4">
+	      	<img src="img/browser.png" class="img-responsive mage5"> -->
+	      </div>
+      </section>
+  <!-- <end of min section of the page> -->
+  <audio autoplay loop >
+  		<source src="img/music.mp3">                    
+   </audio>
+  <button onclick="stopMusic()" id="myBtn404" title="Go to top" class="animated bounceInUp"><i class="material-icons">pan_tool</i></button> 
+  <script type="">
+  	function stopMusic(){
+  		document.getElementById("myBtn404").style.backgroundColor = "indianred";
+  		var sounds = document.getElementsByTagName('audio');
+  		for (i = 0; i <sounds.length; i++) sounds[i].pause();
+  		document.getElementById('stop').style.animationName = "none";
+  		document.getElementById('stop').style.animation = "none";
+  	}
+  </script>
+  <script type="" src="js/jqey.js"></script>
+  <script type="" src="js/boots.js"></script>
+</body>
+</html>

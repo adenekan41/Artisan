@@ -85,6 +85,39 @@
 	    display: inline-block;
 	    margin-left: 50px;
 	}
+	#myBtn404 {
+	    position: fixed;
+	    bottom: 20px;
+	    right: 30px;
+	    z-index: 99;
+	    border: none;
+	    display: ;
+	    outline: none;
+	    background: #3e97e4;
+	    color: white;
+	    cursor: pointer;
+	    padding: 18px;
+	    transition: all .3s ease;
+	    border-radius: 50%;
+	    font-size: 10px !important;
+	    animation-name: none;
+	    animation: none;
+	    animation-duration: none;
+	    animation-iteration-count: none;
+	    animation-direction: 0;
+	}
+	#form-search{
+		display: none;
+	}
+	.mobile-btn{
+		display: block;
+	}
+	.artisanwelcome_text h1{
+		color: white;
+		padding-bottom: 1%;
+		animation-delay: 1s;
+		font-size: 2.2em;
+	}
 }
 @media( max-width : 989px ) {
 	.welcome_text form{
@@ -171,6 +204,34 @@
 	    display: inline-block;
 	    margin-left: 50px;
 	}
+	#myBtn404 {
+	    position: fixed;
+	    bottom: 20px;
+	    right: 30px;
+	    z-index: 99;
+	    border: none;
+	    display: ;
+	    outline: none;
+	    background: #3e97e4;
+	    color: white;
+	    cursor: pointer;
+	    padding: 18px;
+	    transition: all .3s ease;
+	    border-radius: 50%;
+	    font-size: 10px !important;
+	    animation-name: none;
+	    animation: none;
+	    animation-duration: none;
+	    animation-iteration-count: none;
+	    animation-direction: 0;
+	}
+	#form-search{
+		display: none;
+	}
+	.mobile-btn{
+		display: block;
+	}
+	
 }
 @media( max-width : 220px ){
 	.mobile-btn{
@@ -246,6 +307,39 @@
 	    font-size: 36px;
 	    display: inline-block;
 	    margin-left: 50px;
+	}
+	#myBtn404 {
+	    position: fixed;
+	    bottom: 20px;
+	    right: 30px;
+	    z-index: 99;
+	    border: none;
+	    display: ;
+	    outline: none;
+	    background: #3e97e4;
+	    color: white;
+	    cursor: pointer;
+	    padding: 18px;
+	    transition: all .3s ease;
+	    border-radius: 50%;
+	    font-size: 10px !important;
+	    animation-name: none;
+	    animation: none;
+	    animation-duration: none;
+	    animation-iteration-count: none;
+	    animation-direction: 0;
+	}
+	#form-search{
+		display: none;
+	}
+	.mobile-btn{
+		display: block;
+	}
+	.artisanwelcome_text h1{
+		color: white;
+		padding-bottom: 1%;
+		animation-delay: 1s;
+		font-size: 2.2em;
 	}
 }
 
