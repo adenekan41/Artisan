@@ -3,7 +3,7 @@
 <head>
 <title>Artisan INC |timeline for artisans</title>  
   <!-- <link rel="icon" type="image/jpg" href="img/artisan.png"> -->
-  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="shortcut icon" href="img/ar.png">
   <meta charset="UTF-8" />
   <meta http-equiv="Content-Type" content="charset=utf-8" />
   <meta name="author" content="wonderful | Adnekan" />
@@ -45,7 +45,7 @@
 <!-- <end of head> -->
 <body onload="myLoader()" >
   <div id="loaders"></div>
-  <div id="myDiv" class="animate-bottom">
+  <div id="myDiv" class="animate-bottom timelines">
     <!-- <herader sction> -->
     <header>
         <nav class="navbar navbar-inverse navbar-fixed-top animated bounce" id="navbar" role="navigation">
@@ -56,15 +56,15 @@
                   <span class="icon icon-bar"></span>
                   <span class="icon icon-bar"></span>
               </button><!-- <end of buton> -->
-              <a href="#" class="navbar-brand read-article" id="read-article"><i class="fa fa-bars navbarand" id="profile-view" onclick="myFunction()"><b>Profile</b></i><i class="material-icons navbarand">flash_auto</i></button></a>
+              <a href="#" class="navbar-brand read-article" id="read-article"><img src="img/ar.png" class="navbarand img-responsive"><i class="glyp fa fa-bars navbarand" id="profile-view" onclick="myFunction()"><b>Profile</b></i></a>
             </div><!-- <end of navbar-header> -->
             <div class="collapse navbar-collapse">
               <ul class="nav navbar-nav " >
                 <li><a href="index.html" class="smoothScrol read-article" id="read-article">Home</a></li>
-                <li><a href="#" class="smoothScrol read-article" id="read-article">About</a></li>
-                <li><a href="#" class="smoothScrol read-article" id="read-article">Gallery</a></li>
-                <li><a href="#" class="smoothScrol read-article" id="read-article">Teams</a></li>
-                <li><a href="#" class="smoothScrol read-article" id="read-article">Contact</a></li>
+                <li><a href="404.html" class="smoothScrol read-article" id="read-article">About</a></li>
+                <li><a href="404.html" class="smoothScrol read-article" id="read-article">Gallery</a></li>
+                <li><a href="404.html" class="smoothScrol read-article" id="read-article">Teams</a></li>
+                <li><a href="404.html" class="smoothScrol read-article" id="read-article">Contact</a></li>
               </ul><!-- <end of navbar left> -->
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="#" class="smoothScrol read-article" id="read-article" data-toggle="modal" data-target="#myemail"><i class="material-icons">inbox</i> </a></li>
@@ -93,13 +93,16 @@
                   <h5 class="text-center">Adenekan Wonderful</h5>
                   <!-- <p class="text-center">web developer , plumber , engeeneer , mechanic , baker- chef , cooker , driver <span class="label label-default">Add More</span></p> -->
                   <input type="text" name="" class="form-control" placeholder="search for somethin...">
+                  <h6>Menu</h6>
                   <button type="button" class="btn btn-primary btn-block timeline_sidebtn_active">Timeline<i class="fa fa-chevron-right "></i></button>
-                  <a href="showartisan.html"><button type="button" class="btn btn-primary btn-block ">Retweet A geek <i class="fa fa-gears "></i></button></a>
-                  <a href="showartisan.html"><button type="button" class="btn btn-primary btn-block">Check Geeks  <i class="fa fa-bullhorn "></i></button></a>
+                  <a href="showartisan.html"><button type="button" class="btn btn-primary btn-block ">Retweet A geek <span class="label label-primary pull-right">4</span></button></a>
+                  <a href="showartisan.html"><button type="button" class="btn btn-primary btn-block">Check Geeks  <span class="label label-danger pull-right">12</span></button></a>
                   
                   <a href="editprofile.html"><button type="button" class="btn btn-primary btn-block">Edit Profile  <i class="fa fa-edit "></i></button></a>
                   <a href="showartisan.html"><button type="button" class="btn btn-primary btn-block">Check Movement  <i class="fa fa-bus"></i></button></a>
-                  
+                  <h6>projects</h6>
+                  <a href="editprofile.html"><button type="button" class="btn btn-primary btn-block">0 live project <i class="fa fa-circle-o text-right text-danger"></i></button></a>
+                  <a href="showartisan.html"><button type="button" class="btn btn-primary btn-block">0 client projects  <i class="fa fa-circle-o text-right text-warning"></i></button></a>
                   </div>
               </div>
 
@@ -110,6 +113,7 @@
                     <h1 class="text-center">Adenekan Wonderful</h1>
                     <p class="text-center">web developer, plumber, engeeneer, mechanic , baker chef,cooker,driver</p>
                     <img src="img/p2.jpeg" class="img-responsive float-img">
+                    <h3 class="text-left float-text">Adenekan Wonderful <br><i class="fa fa-circle text-success"><b>&nbsp;Online</b></i></h3>
                 </div><br><br>
                 <div class="row">
                   <div class="col-md-7">
@@ -247,15 +251,63 @@
                     </div>
                   </div>
                 </div>
+                <footer>
+				      <div class="row">
+				        <div class="col-md-3">
+				          <h2 class="text-center">Contact us</h2>
+				          <p class="text-center">Phone: &nbsp;0808-121-0121</p>
+				          <p class="text-center">17 Akorunfayo Estate Off fadeyi Onipanu Lagos Nigeria</p>
+				          <p class="text-center">Copyright 2017 @ Artisan INC </p>
+				          <button type="button" class="btn btn-primary btn-block">Get In touch Now</button>
+				        </div>
+				        <div class="col-md-3">
+				          <h3 class="text-center">Services</h3>
+				          <center>
+				            <hr>
+				          </center>
+				          <p class="text-center">Worker</p>
+				          <p class="text-center">client</p>
+				          <p class="text-center">artisans</p>
+				          <p class="text-center">Api</p>
+				          <p class="text-center">Monetary Hired</p>
+				        </div>
+				        <div class="col-md-2">
+				          <h3 class="text-center">Social Medias</h3>
+				          <center>
+				            <hr>
+				          </center>
+				          <p class="text-center">Facebook</p>
+				          <p class="text-center">Twitter</p>
+				          <p class="text-center">Google</p>
+				          <p class="text-center">Instagram</p>
+				          <p class="text-center">Monetary Hired</p>
+				        </div>
+				        <div class="col-md-4">
+				          <h3 class="text-center get">Get In Touch</h3>
+				          <form>
+				            <div class="form-group">
+				              <div class="row">
+				                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
+				                  <input type="text" name="" placeholder="Email" class="form-control">
+				                </div>
+				                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
+				                  <input type="text" name="" placeholder="Email" class="form-control">
+				                </div>
+				              </div><br>
+				              <textarea class="form-control" placeholder="Your Message Here" required="" autofocus=""></textarea><br>
+				              <button type="button" class="btn btn-primary btn-group-justified">Get In touch</button>
+				            </div>
+				          </form>
+				        </div>
+				    
+				</footer>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- <end of section> -->
-    <footer>
-      
-    </footer>
+    
     <!-- <enf ooter> --> 
   </div>
 <script type="" src="js/jqey.js"></script>

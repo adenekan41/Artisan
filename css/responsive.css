@@ -56,17 +56,15 @@
 	    z-index: 1;
 	    top: 0;
 	    left: 0;
-	    background-color:#204d74 !important;
- 		padding-top: 18%;
- 		overflow: scroll;
+	    background-color: rgba(0, 0, 0, 0.89) !important;
 	    box-shadow: 0 2px 15px rgba(0,0,0,0.65);
 	    overflow: hidden !important;
 	    transition: 0.5s;
-	   
+	    padding-top: 15%;
 	}
 	#profile-view {
 	    display: inline-block;
-	    font-size: 18px;
+	    font-size: 15px;
 	    padding-right: 10px !important;
 	}
 	.navbar-brand {
@@ -117,6 +115,14 @@
 		padding-bottom: 1%;
 		animation-delay: 1s;
 		font-size: 2.2em;
+	}
+	.timeline-well button:hover {
+	    background-color:transparent !important;
+	    border-left: 2px solid transparent !important;
+	}
+	.timeline_sidebtn_active {
+	     background-color: transparent !important; 
+	    border-left: 2px solid transparent !important;
 	}
 }
 @media( max-width : 989px ) {
@@ -175,17 +181,15 @@
 	    z-index: 1;
 	    top: 0;
 	    left: 0;
-	    background-color:#204d74 !important;
- 		padding-top: 18%;
- 		overflow: scroll;
+	    background-color: rgba(0, 0, 0, 0.89) !important;
 	    box-shadow: 0 2px 15px rgba(0,0,0,0.65);
 	    overflow: hidden !important;
 	    transition: 0.5s;
-	   
+	    padding-top: 15%;
 	}
 	#profile-view {
 	    display: inline-block;
-	    font-size: 18px;
+	    font-size: 15px;
 	    padding-right: 10px !important;
 	}
 	.navbar-brand {
@@ -230,6 +234,14 @@
 	}
 	.mobile-btn{
 		display: block;
+	}
+	.timeline-well button:hover {
+	    background-color:transparent !important;
+	    border-left: 2px solid transparent !important;
+	}
+	.timeline_sidebtn_active {
+	     background-color: transparent !important; 
+	    border-left: 2px solid transparent !important;
 	}
 	
 }
@@ -279,17 +291,15 @@
 	    z-index: 1;
 	    top: 0;
 	    left: 0;
-	    background-color:#204d74 !important;
- 		padding-top: 24%;
- 		overflow: scroll;
+	    background-color: rgba(0, 0, 0, 0.89) !important;
 	    box-shadow: 0 2px 15px rgba(0,0,0,0.65);
 	    overflow: hidden !important;
 	    transition: 0.5s;
-	   
+	    padding-top: 15%;
 	}
 	#profile-view {
 	    display: inline-block;
-	    font-size: 18px;
+	    font-size: 15px;
 	    padding-right: 10px !important;
 	}
 	.navbar-brand {
@@ -330,6 +340,7 @@
 	    animation-direction: 0;
 	}
 	#form-search{
+
 		display: none;
 	}
 	.mobile-btn{
@@ -341,10 +352,18 @@
 		animation-delay: 1s;
 		font-size: 2.2em;
 	}
+	.timeline-well button:hover {
+	    background-color:transparent !important;
+	    border-left: 2px solid transparent !important;
+	}
+	.timeline_sidebtn_active {
+	     background-color: transparent !important; 
+	    border-left: 2px solid transparent !important;
+	}
 }
 
 
-@media screen and (max-height: 450px) {
+/*@media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
+}*/
