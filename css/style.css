@@ -40,6 +40,17 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
     box-shadow: 0 2px 15px rgba(0,0,0,0.76);
     background-size: cover;
 }
+.carpentermain {
+    /* background-image: url(https://static.pexels.com/photos/401684/pexels-photo-401684.jpeg); */
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url(../img/bg1.jpg);
+    background-position: bottom;
+    background-attachment: initial;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    width: 100%;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.76);
+    background-size: cover;
+}
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -577,55 +588,56 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 	  z-index: -1;	
 }
 #loader {
+   position: absolute;
     position: absolute;
     left: 50%;
     top: 50%;
     z-index: 1;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin: -75px 0 0 -75px;
     border-radius: 50%;
-    box-shadow: 0 2px 150px rgba(0,0,0,0.55);
-    border-top: 14px solid #3498db;
-    /* border-bottom: 10px solid #3498db; */
-    border-left: 10px crimson;
-    width: 120px;
-    height: 120px;
+    background: transparent;
+    /* box-shadow: 0 2px 150px rgba(0,0,0,0.55); */
+    /* border-top: 4px solid #3498db; */
+    border-top: 2px solid #3498db;
+    /* border-left: 10px crimson; */
     -webkit-animation: spin 2s linear infinite;
     animation: spin 1.5s linear infinite;
 }
 #loadering {
     position: absolute;
+    position: absolute;
     left: 50%;
     top: 50%;
     z-index: 1;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin: -75px 0 0 -75px;
     border-radius: 50%;
-    box-shadow: 0 2px 150px rgba(0,0,0,0.55);
-    border-top: 14px solid green;
-    /* border-bottom: 10px solid #3498db; */
-    border-left: 10px crimson;
-    width: 120px;
-    height: 120px;
+    background: transparent;
+    /* box-shadow: 0 2px 150px rgba(0,0,0,0.55); */
+    /* border-top: 4px solid #3498db; */
+    border-top: 2px solid #3498db;
+    /* border-left: 10px crimson; */
     -webkit-animation: spin 2s linear infinite;
     animation: spin 1.5s linear infinite;
 }
 #loaders {
     position: absolute;
+    position: absolute;
     left: 50%;
     top: 50%;
     z-index: 1;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin: -75px 0 0 -75px;
     border-radius: 50%;
-    box-shadow: 0 2px 150px rgba(0,0,0,0.55);
-    border-top: 14px solid orange;
-    /* border-bottom: 10px solid #3498db; */
-    width: 120px;
-    height: 120px;
+    background: transparent;
+    /* box-shadow: 0 2px 150px rgba(0,0,0,0.55); */
+    /* border-top: 4px solid #3498db; */
+    border-top: 2px solid #3498db;
+    /* border-left: 10px crimson; */
     -webkit-animation: spin 2s linear infinite;
     animation: spin 1.5s linear infinite;
 }
@@ -716,7 +728,9 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 	box-shadow: none;
 	padding: 10px;
 	border-radius: 1px;
+	overflow-y: overlay;
 	border: none;
+	overflow-x: hidden;
 	color: white;
 	height: 100%;
 }
@@ -805,8 +819,7 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
     border-radius: 1px;
     background: transparent;
     margin-bottom: 0%;
-    min-width: 226px;
-    margin-left: -4% !important;
+    
     height: 38px;
     font-size: 13px;
     border: none;
@@ -947,7 +960,7 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 }
 .all_artisan button {
 	border-radius: 1px;
-	margin-top: 8%;
+	margin-top: 3%;
 }
 .form-top {
     position: fixed;
@@ -969,6 +982,23 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
     z-index: 99;
     border: none;
     display: none;
+    outline: none;
+    background: #3e97e4;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.65);
+    border-radius: 50%;
+    font-size: 10px !important;
+}
+#myBtn001 {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    display: block;
+    visibility: hidden;
     outline: none;
     background: #3e97e4;
     color: white;
@@ -1069,5 +1099,253 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
     background-color: #555; /* Add a dark-grey background on hover */
 }
 .artisanshown{
+	opacity: 0 !important;
+}
+.artisanshown1{
+	opacity: 1 !important;
+}
+.ref-artisan img{
+	height: 140px;
+	width: 140px;
+	box-shadow: 0 2px 15px rgba(0,0,0,0.43);
+}
+.ref-artisan p {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 5%;
+}
+.ref-artisan h4{
+	font-size: 17px;
+}
+.ref-artisan button{
+	padding: 8px 40px;
+	border-radius: 1px !important;
+}
+.ref_artisan {
+    /* background-image: url(https://static.pexels.com/photos/401684/pexels-photo-401684.jpeg); */
+    background-image: linear-gradient(rgba(255,255,255,0.93),rgba(255,255,255,0.93)), url(../img/procan.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* position: fixed; */
+    width: 100%;
+    height: 100%;
+    /* top: 0; */
+    background-size: cover;
+    /* left: 0; */
+    /* z-index: -1; */
+}
+.client-card {
+    background:#61829e;
+    padding: 40px;
+    width: 272px;
+    height: 300px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.45);
+    color: white;
+    padding-top: 22%;
+    margin-bottom: 3%;
+    border-radius: 1px;
+    /* border: 2px solid #3e97e4; */
+    border: 2px solid #61829e;
+    transition: all 1s ease;
+    text-decoration: none !important;
+}
+.client-card:hover {
+    background:  #337ab7 ;
+    padding: 40px;
+    width: 272px;
+    height: 300px;
+    text-decoration: none !important;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.45);
+    color: white;
+    padding-top: 22%;
+    margin-top: -10%;
+    border-radius: 1px;
+    /* border: 2px solid #3e97e4; */
+    border: 2px solid #3e97e4;
+}
+.our-clinent-invit a{
+	text-decoration: none !important;
+}
+.our-clinent-invit {
+    background: url(../img/up.png);
+    width: 100%;
+    /* background-size: cover; */
+    /* background-position: unset; */
+    /* height: 700px; */
+    padding-top: 5%;
+}
+.client-mover{
+	margin-top: 4%;
+}
+.category-pck {
+    background: url(../img/bg.png);
+    background-color: #61829e ;
+    padding: 30px 18px;
+    background-size: initial;
+    border-radius: 50%;
+    height: 100px;
+    color: white;
+    transition: all 1s ease;
+    margin-bottom: 2%;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.45);
+    /* font-size: 6px !important; */
+    width: 100px;
+}
+.category-pck:hover{
+	background-color: #3498db;
+}
+.category-pck h4{
+	font-size: 14px;
+}
+.all-category{
+	margin-top:2%; 
+}
+.into-category-artisan {
+    /* background-image: url(https://static.pexels.com/photos/401684/pexels-photo-401684.jpeg); */
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(../img/fmfv.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 250px;
+    width: 100%;
+    padding-top: 2%;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.76);
+    background-color: #3498db;
+    color: white;
+}
+.into-category-artisan button {
+    /* background: red; */
+    padding: 6px;
+    border: 1px solid #3498db;
+    border-radius: 1px;
+    background: #3498db;
+}
+.into-category-artisan input {
+    /* background: red; */
+   
+    border-radius: 1px;
+   
+}
+.artisan-categories a{
+	text-decoration: none;
+	display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+
+}
+.artisan-categories a:hover ,.artisan-category a:focus ,.artisan-category a:active{
+	-webkit-animation-name: hvr-buzz;
+    animation-name: hvr-buzz;
+    -webkit-animation-duration: 0.15s;
+    animation-duration: 0.15s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 4;
+    animation-iteration-count: 4;
+    transition: all 1s ease;
+    
+}
+/* Buzz */
+@-webkit-keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+@keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+.hvr-buzz {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
+  -webkit-animation-name: hvr-buzz;
+  animation-name: hvr-buzz;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.client-page-bg {
+    /* background-image: url(https://static.pexels.com/photos/401684/pexels-photo-401684.jpeg); */
+    background-image: linear-gradient(rgba(245, 245, 245, 0.79),rgba(245, 245, 245, 0.79)), url(../img/less.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow-y: hidden !important;
+    z-index: -1;
+}
+.artisan-categories {
+    background: url(../img/up.png);
+    background-size: inherit;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+#clen {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+  
+    outline: none;
+    background: #3e97e4;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.65);
+    border-radius: 50%;
+    font-size: 10px !important;
+}
+.client-show{
 	display: none;
+	
+}
+a.show_btn_artisan {
+    background: none !important;
+    text-decoration: none;
+}
+.client-unshow{
+	display: block;
+}
+img.img-responsive.img-circle.clinet-img {
+    height: 50px;
+    width: 50px;
+    /*margin-top: -3%;*/
+}
+.img-brnd{
+	height: 30px;
+	width: 30px;
+	margin-top: 13px !important;
 }
