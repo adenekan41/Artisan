@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Artisan INC |Dashboards for artisans</title>  
+  <!-- <link rel="icon" type="image/jpg" href="img/artisan.png"> -->
+  <link rel="shortcut icon" href="img/ar.png">
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="charset=utf-8" />
+  <meta name="theme-color" content="#3e97e4">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#3e97e4">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#3e97e4">
+  <meta name="author" content="wonderful | Adnekan" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="A community focused development for buildeing a great community of artisans">
+  <meta name="keywords" content="artisan, programming, software, code, tech, computer client, work, artisan Inc, electrician, plumber, artisan, websites,money, web development, design, ui, ux" />
+  <meta property="og:locale" content="en-US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Artisan" />
+  <meta property="og:description" content="A community focused development for buildeing a great community of artisans" />
+  <meta property="og:url" content="http://www.thegazine.blogspot.com" />
+  <meta property="og:site-name" content="wonderful" />
+  <meta property="article:publisher" content="https://facebook.com/wondertechnologies" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="wonderful" />
+  <meta name="twitter:site" content="@w_adenekan" />
+  <meta name="twitter:domain" content="" />
+  <!-- css frame works -->
+ <link rel="stylesheet" href="css/normalize.css" type="text/css">
+<!--  <bootstrap framworks> -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/materialpaper.css"> -->
+  <!-- <font awesome> -->
+ <!--  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  <link rel="stylesheet" type="text/css" href=" css/material-icon.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <!-- <custom stylings> -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- <Custom Animations> -->
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <!-- <reponsiveness css> -->
+  <link rel="stylesheet" type="text/css" href=" css/responsive.css">
+  <!-- <end of custom animation> -->
+  
+</head>
+
+<!-- <end of head> -->
+<body onload="myLoader()" >
+  <center>
+  	<div id="loaders"></div>
+  </center>
+  <div id="myDiv" class="animate-bottom timelines">
+    <!-- <herader sction> -->
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top animated bounce" id="navbar" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon icon-bar"></span>
+                  <span class="icon icon-bar"></span>
+                  <span class="icon icon-bar"></span>
+              </button><!-- <end of buton> -->
+              <i class="glyp material-icons timelinenavbarand" id="profile-view" onclick="myFunction()">apps</i><a href="#" class="navbar-brand read-article" id="read-article"><img src="img/ar.png" class="navbarand img-responsive"></a>
+            </div><!-- <end of navbar-header> -->
+            <div class="collapse navbar-collapse">
+              <!-- <ul class="nav navbar-nav " >
+                <li><b>Artisan</b></li>
+              </ul> --><!-- <end of navbar left> -->
+              <ul class="nav navbar-nav navbar-right">
+              	<li><a href="404.html" class="smoothScrol read-article" id="read-article"><i class="timeline-gly fa fa-bell-o"></i>
+                <span class="label label-warning timeline-span">10</span></a></li>
+                <li><a href="404.html" class="smoothScrol read-article" id="read-article"><i class="timeline-gly fa fa-envelope-o"></i>
+                <span class="label label-primary timeline-span">4</span></a></li>
+                <li><a href="404.html" class="smoothScrol read-article" id="read-article"><i class="timeline-gly fa fa-flag-o"></i>
+                <span class="label label-danger timeline-span">6</span></a></li>
+                <li><a href="#" class="smoothScrol read-article" id="read-article" data-toggle="modal" data-target="#myemail"><i class="material-icons">inbox</i> </a></li>
+                <li> <img src="img/p2.jpeg" alt=""  class="img-responsive img-circle img-brnd"></li>
+                 <li><a href="login.html" class="smoothScrol read-article" id="read-article">Login Out</a></li>
+              </ul><!-- <end of navbar right> -->
+            </div><!-- <end of navbar-collaspe> -->
+          </div><!-- <end of Container> -->
+        </nav>
+    </header>
+    <!-- <end of header section> -->
+    <!-- <min section> -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="left-bar">
+            <div class="col-md-2">
+              
+              <div id="mySidenav" class="sidenav">
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="well timeline-well">
+                  
+                  <center>
+                    <img src="img/p2.jpeg" class="img-responsive img-circle">
+                  </center>
+                  <h5 class="text-center">Adenekan Wonderful</h5>
+                  <!-- <p class="text-center">web developer , plumber , engeeneer , mechanic , baker- chef , cooker , driver <span class="label label-default">Add More</span></p> -->
+                  <input type="text" name="" class="form-control" placeholder="search for somethin...">
+                  <h6>Menu</h6>
+                  <a href="timeline.html"><button type="button" class="btn btn-primary btn-block ">Timeline<i class="fa fa-chevron-right "></i></button></a>
+                  <a href="showartisan.html"><button type="button" class="btn btn-primary btn-block ">Retweet A geek <span class="label label-primary pull-right">4</span></button></a>
+                  <a href="show_geek.html"><button type="button" class="btn btn-primary btn-block">Check Geeks  <span class="label label-danger pull-right">12</span></button></a>
+                  
+                  <a href="editprofile.html"><button type="button" class="btn btn-primary btn-block">Edit Profile  <i class="fa fa-edit "></i></button></a>
+                  <a href="showartisan.html"><button type="button" class="btn btn-primary btn-block">Check Movement  <i class="fa fa-bus"></i></button></a>
+                  <a href="dashboard.html"><button type="button" class="btn btn-primary btn-block timeline_sidebtn_active">Dashboard  <i class="fa fa-dashboard"></i></button></a>
+                  <h6>projects</h6>
+                  <a href="editprofile.html"><button type="button" class="btn btn-primary btn-block">0 live project <i class="fa fa-circle-o text-right text-danger"></i></button></a>
+                  <a href="showartisan.html"><button type="button" class="btn btn-primary btn-block">0 client projects  <i class="fa fa-circle-o text-right text-warning"></i></button></a>
+                  </div>
+              </div>
+
+            </div>
+          </div>
+            <div class="col-md-10 dash-collar">
+            		<h3><b>Artisan Dashboard</b></h3>
+            		<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, ipsam.</p>	
+               <div class="row">  
+    							<div class="col-md-3">	
+										<div class="well dash-well1">	
+												<h1>12</h1>
+												<p>live Project</p>
+										</div>
+    							</div>
+    							<div class="col-md-3">	
+ 										<div class="well dash-well2">	
+												<h1>53%</h1>
+												<p>Artisan Rate</p>
+										</div>
+    							</div>
+    							<div class="col-md-3">	
+  									<div class="well dash-well3">	
+												<h1>23</h1>
+												<p>Proud Clients</p>
+										</div>
+    							</div>
+    							<div class="col-md-3">	
+  									<div class="well dash-well4">	
+												<h1>5</h1>
+												<p>Artisan Group</p>
+										</div>
+    							</div>
+               </div><br>	
+               <div class="row">	
+									<div class="col-md-7">	
+										<div class="well chart-well">
+													<h4>Perfoemance Chart</h4>	
+												 <div id="chartdiv" style="width: 100%; height: 400px;"></div>
+										</div>
+										<div class="well chat-well">
+												<h4>Recent Chat</h4>	
+												<div class="media">
+	                        <div class="media-left">
+	                          <img src="img/p2.jpeg" class="img-responsive img-circle p-img">
+	                        </div>
+	                        <div class="media-body">
+	                          <h5 class="exp-p">Adenkan Wonderful</h5>
+	                          <p>20:13</p>
+	                          <p>I would like to meet you to discuss the latest news about the arrival of the new theme. They say it is going to be one the best themes on the market</p>
+	                        </div>
+	                      </div>
+	                      <div class="media">
+	                        <div class="media-left">
+	                          <img src="img/p3.jpeg" class="img-responsive img-circle p-img">
+	                        </div>
+	                        <div class="media-body">
+	                          <h5 class="exp-p">Segun Sunday</h5>
+	                          <p>20:13</p>
+	                          <p>I would like to meet you to discuss the latest news about the arrival of the new theme. They say it is going to be one the best themes on the market</p>
+	                          <div class="attachment">	
+																<h4>Attachment:</h4>
+																<p><i>Theme-thumbnail-image.jpg</i></p>
+																<div class="pull-right">	
+																	<button class="btn btn-primary">Open</button>
+																</div>
+	                          </div>
+	                        </div>
+	                      </div>
+	                      <div class="media">
+	                        <div class="media-left">
+	                          <img src="img/p2.jpeg" class="img-responsive img-circle p-img">
+	                        </div>
+	                        <div class="media-body">
+	                          <h5 class="exp-p">Adenkan Wonderful</h5>
+	                          <p>Just Now</p>
+	                          <p>I would like to meet you to discuss the latest news about the arrival of the new theme. They say it is going to be one the best themes on the market</p>
+	                        </div>
+	                      </div><br>
+	                      <div class="input-group">
+					                <input class="form-control" placeholder="Type message here...">
+
+					                <div class="input-group-btn">
+					                  <button type="button" class="btn btn-primary"><i class="fa fa-share"></i></button>
+					                </div>
+					              </div>
+										</div>
+									</div>
+									<div class="col-md-5">	
+											<div class="well dash-top">	
+													<h4>Top Artisans</h4>
+													<div class="media">
+		                        <div class="media-left">
+		                          <img src="img/p2.jpeg" class="img-responsive img-circle p-img">
+		                        </div>
+		                        <div class="media-body">
+		                          <h5 class="exp-p">Adenkan Wonderful</h5>
+		                          <p>Plumber</p>
+		                          <p><i class="fa fa-star filled"></i><i class="fa fa-star filled"></i><i class="fa fa-star filled"></i><i class="fa fa-star filled"></i><i class="fa fa-star filled"></i></p>
+		                        </div>
+		                      </div>
+                          <div class="media">
+		                        <div class="media-left">
+		                          <img src="img/p3.jpeg" class="img-responsive img-circle p-img">
+		                        </div>
+		                        <div class="media-body">
+		                          <h5 class="exp-p">Felix Mba</h5>
+		                          <p>Carpentar</p>
+		                          <p><i class="fa fa-star filled"></i><i class="fa fa-star filled"></i><i class="fa fa-star filled"></i><i class="fa fa-star filled"></i><i class="fa fa-star filled"></i></p>
+		                        </div>
+		                      </div>
+		                      <div class="media">
+		                        <div class="media-left">
+		                          <img src="img/worker3.jpg" class="img-responsive img-circle p-img">
+		                        </div>
+		                        <div class="media-body">
+		                          <h5 class="exp-p">Obi Micheal</h5>
+		                          <p>Electrician</p>
+		                          <p><i class="fa fa-star filled"></i><i class="fa fa-star filled"></i><i class="fa fa-star filled"></i><i class="fa fa-star filled"></i><i class="fa fa-star filled"></i></p>
+		                        </div>
+		                      </div>
+		                      <!-- <div class="media">
+		                        <div class="media-left">
+		                          <img src="img/showartisan1.jpg" class="img-responsive img-circle p-img">
+		                        </div>
+		                        <div class="media-body">
+		                          <h5 class="exp-p">Soga Segun</h5>
+		                          <p>Tailor</p>
+		                          <p><i class="fa fa-star filled"></i><i class="fa fa-star filled"></i><i class="fa fa-star filled"></i><i class="fa fa-star filled"></i><i class="fa fa-star "></i></p>
+		                        </div>
+		                      </div> -->
+		                      <a href="showartisan.html"><p class="filled-flor">See more Top Artisan</p></a>
+											</div>
+											<div class="well post-geek">	
+												<h4>Post A geek</h4>
+												<form action="	">
+													<div class="form-group">
+														<label for="">Job</label>
+														<input type="text" placeholder="Job" class="form-control">
+														<label for="">Client Name</label>
+														<input type="text" placeholder="Client Name" class="form-control">
+														<label for="">Work</label>
+														<input type="text" placeholder="Work" class="form-control">
+														<label for="">Discription</label>
+														<textarea name="" id="" cols="30" rows="5" placeholder="Discription" class="form-control"></textarea>
+														<label for="">Budget</label>
+														<input type="text" placeholder="Budget" class="form-control">
+														<label for="">Artisan Target</label>
+														<select name="" id="" class="form-control">
+															<option value="">Artisan Target</option>
+					                    <option>Farmer</option>
+					                    <option>Plumber</option>
+					                    <option>Artist</option>
+					                    <option>Real Estate</option>
+					                    <option>Mechanic</option>
+					                    <option>Shoe-maker</option>
+					                    <option>Painter</option>
+					                    <option>Bricklayer</option>
+					                    <option>Welder</option>
+					                    <option>Comedians</option>
+					                    <option>Tailor</option>
+					                    <option>Chef</option>
+					                    <option>Electrician</option>
+					                    <option>Art maker</option>
+					                    <option>Others</option>
+														</select>
+														<label for="">Choose Image (Compulsory)</label>
+														<input type="file" class="form-control" placeholder="Choose Your Image">
+														<button class="btn btn-group-justified btn-primary">Post Geek</button>
+													</div>
+												</form>
+											</div>
+									</div>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <end of section> -->
+    
+    <!-- <enf ooter> --> 
+  </div>
+<script type="" src="js/jqey.js"></script>
+<script src="js/amcharts.js" type="text/javascript"></script>
+<script src="js/serial.js" type="text/javascript"></script>
+<script type="" src="js/boots.js"></script>
+<script src="js/barchart.js"></script>
+
+<script type="text/javascript">
+  var buttons = document.getElementById('profile-view');
+  var sidenav = document.getElementById('mySidenav');
+
+  function myFunction(){
+   $('.sidenav').css("width" , "70%");
+  }
+  function closeNav() {
+    $('.sidenav').css("width" , "0%");
+}
+</script>
+<script type="text/javascript">
+  var myVar;
+
+function myLoader() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loaders").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+</body>
+</html>

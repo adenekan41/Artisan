@@ -42,7 +42,18 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 }
 .carpentermain {
     /* background-image: url(https://static.pexels.com/photos/401684/pexels-photo-401684.jpeg); */
-    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url(../img/bg1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(../img/bg1.jpg);
+    background-position: bottom;
+    background-attachment: initial;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    width: 100%;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.76);
+    background-size: cover;
+}
+.geekmain {
+    /* background-image: url(https://static.pexels.com/photos/401684/pexels-photo-401684.jpeg); */
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(../img/laptop-mobile.jpg);
     background-position: bottom;
     background-attachment: initial;
     background-repeat: no-repeat;
@@ -78,7 +89,16 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    margin-top: -7px;
+}
+.timelinenavbarand {
+    color: #333 !important;
+    display: ;
+    width: 28px;
+    cursor: pointer;
+    height: 28px;
+    font-size: 29px !important;
+    border-radius: 50%;
+    margin-top: 7px;
 }
 .welcome_text{
 	padding-top: 4%;
@@ -369,6 +389,25 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
     height: 130px;
     max-height: 130px;
     width: 100%;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.55);
+    
+}
+.all_artisan img {
+    height: 130px;
+    max-height: 130px;
+    width: 130px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.55);
+    margin-bottom: 4%;
+    /* -webkit-box-align: center !important; */
+    border-radius: 50%;
+}
+.card h4{
+	font-weight: 900;
+	text-align: center;
+}
+.all_artisans h4{
+	font-weight: 100;
+	text-align: left;
 }
 .card{
 	margin-top: 10%;
@@ -679,10 +718,13 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 
 /*profile section*/
 .left-bar img {
-    height: 80px;
+    height: 65px;
     box-shadow: 0 2px 15px rgba(0,0,0,0.65);
-    width: 80px;
+    width: 65px;
     border: 1px solid white;
+}
+.left-online{
+	float: none !important;
 }
 .left-bar p{
 	line-height: 1.7em;
@@ -860,7 +902,7 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
     background-color: white;
     border-color: white;
     color: black !important;
-    box-shadow: 0 2px 15px rgba(0,0,0,0.95);
+    box-shadow: 0 2px 15px rgba(0,0,0,0.65);
 }
 .navbar-inverse .navbar-nav>li>a {
     color: #000;
@@ -875,6 +917,9 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 }
 .collar{
 	margin-top: 4%;
+}
+.dash-collar{
+	margin-top: 5%;
 }
 .sidenav .closebtn {
     position: absolute;
@@ -960,7 +1005,11 @@ a,h1,h2,h3,h4,h5,h6,p,button,input[type="text"],input[type="password"],input[typ
 }
 .all_artisan button {
 	border-radius: 1px;
-	margin-top: 3%;
+	margin-top: 4%;
+}
+.all_artisans button {
+	border-radius: 1px;
+	margin-top: 5%;
 }
 .form-top {
     position: fixed;
@@ -1339,6 +1388,10 @@ a.show_btn_artisan {
 .client-unshow{
 	display: block;
 }
+.client-unshow select{
+	border-radius: 1px;
+	font-family: realway;
+}
 img.img-responsive.img-circle.clinet-img {
     height: 50px;
     width: 50px;
@@ -1348,4 +1401,122 @@ img.img-responsive.img-circle.clinet-img {
 	height: 30px;
 	width: 30px;
 	margin-top: 13px !important;
+}
+.timeline-span {
+    position: absolute;
+    top: 9px;
+    right: 7px;
+    text-align: center;
+    font-size: 9px;
+    padding: 2px 3px;
+    line-height: .9;
+}
+.timeline-gly{
+	font-size: 17px;
+	margin-top: 2px;
+}
+.well.dash-well1 {
+    border-radius: 1px;
+    background: #05a8d0;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.45);
+    border: none;
+    color: white;
+}
+.well.dash-well2 {
+    border-radius: 1px;
+    background: #00a65a;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.45);
+    border: none;
+    color: white;
+}
+.well.dash-well3 {
+    border-radius: 1px;
+    background: #dd4b39;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.45);
+    border: none;
+    color: white;
+}
+.well.dash-well4 {
+    border-radius: 1px;
+    background: #f39c12;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.45);
+    border: none;
+    color: white;
+}
+.well.chart-well {
+    padding: 12px !important;
+    background: transparent;
+    /* border-top: 2px solid gold !important; */
+    box-shadow: none !important;
+    border-radius: 1px;
+    border: 0px solid transparent;
+}
+.well.dash-top {
+    padding: 19px;
+    background: white;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+    border: 0px solid transparent;
+    border-top: 2.49px solid #3498db;
+    border-radius: 1px;
+}
+p.filled-flor {
+    padding: 6px;
+    background: rgba(52, 152, 219, 0.72);
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none !important;
+    margin-top: 2%;
+}
+.chat-well input{
+	border-radius: 1px;
+	font-family: realway;
+}
+.chat-well button{
+	border-radius: 1px;
+	background: #3498db;
+	border:1px solid #3498db;
+}
+.post-geek button{
+	border-radius: 1px;
+	background: #3498db;
+	border:1px solid #3498db;
+}
+.attachment {
+    border-radius: 1px;
+    background: #eee;
+    margin-left: 65px;
+    /* margin-right: 15px; */
+    padding: 3px 18px;
+    min-height: 114px;
+}
+.chat-well{
+	background: white;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+    border: 0px solid transparent;
+    border-top: 2.49px solid #3498db;
+    border-radius: 1px;
+}
+.post-geek{
+	background: white;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+    border: 0px solid transparent;
+    border-top: 2.49px solid #3498db;
+    border-radius: 1px;	
+}
+.post-geek input{
+	border-radius: 1px;
+	margin-bottom: 3%;
+}
+.post-geek textarea{
+	border-radius: 1px;
+	font-family: realway;
+	margin-bottom: 3%;
+}
+.post-geek select{
+	border-radius: 1px;
+	font-family: realway;
+	margin-bottom: 3%;
+}
+.post-geek label{
+	font-family: realway;
 }
