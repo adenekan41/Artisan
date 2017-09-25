@@ -10,6 +10,171 @@
 		max-height: 300px;
 		width: 100%;
 	}
+	.leftmsgs{
+		display: none;
+	}
+	.well.msg_conten {
+	    background: transparent;
+	    /* max-height: 563px; */
+	    /* height: 500px; */
+	    overflow-y: scroll;
+	    border-radius: 1px;
+	    position: fixed;
+	    width: 99%;
+	    max-height: 79%;
+	    height: 79%;
+	    border: none;
+	    background-size: cover;
+	    box-shadow: none;
+	}
+	.well.messages-out {
+	    margin-left: 9%;
+	    width: 90%;
+	    padding: 10px;
+	    /* padding-bottom: 10%; */
+	    /* float: right; */
+	    border: none;
+	     clip-path: none; 
+	    background: #B9F38A;
+	}
+	.mobl-bg {
+	    background: linear-gradient(rgba(0,0,0,0.34),rgba(0,0,0,0.34)),url(../img/ferv.jpg);
+	    position: absolute;
+	    top: 0%;
+	        left: .1%;
+	    background-size: cover;
+	    width: 100%;
+	    background-position: top;
+	    height: 100%;
+	    z-index: -1;
+	}
+	.expanded-butt {
+	    display: block;
+	    /* margin-top: 26px; */
+	   padding: 17px !important;
+	    margin-left: 70%;
+	    /* padding: 17px !important; */
+	}
+	 .collert1{
+            display: block;
+        }
+        .collert{
+            display: none;
+        }
+	.mobil-serv{
+		display: none;
+	}
+	.mobile-serv-1 {
+	    margin-left: 63%;
+	    display: block;
+	}
+	.expanded-but1t {
+	    padding: 5px;
+	     display: block;
+	    margin-top: 10px !important;
+	}
+	 
+	.actbut{
+		display: none;
+	}
+	.well.messages-in {
+	    /* position: absolute; */
+	    width: 86%;
+	    padding: 11px;
+	    border: none;
+	}
+	.well.bcktopversion i {
+	    padding: 5px;
+	    cursor: pointer;
+	    margin-top: 5%;
+	}
+	.well.send-msgcontent input {
+	    border-radius: 50px;
+	}
+	.imic{
+		padding: 3px;
+		border-radius: 50%;
+		color: white;
+		background-color:#3e97e4;
+	}
+	.well.send-msgcontent {
+		    position: fixed;
+		    bottom: -3%;
+		    background:transparent;
+		    border: none;
+		    width: 100%;
+		    border-radius: 1px;
+		}
+		.well.bcktopversion {
+		    padding: 6px;
+		    border-radius: 1px;
+		    background: #3e97e4;
+		    box-shadow: none;
+		    color: white;
+		    border: none;
+		    margin-bottom: 0%;
+		}
+		.well.frends-well {
+		    overflow-y: scroll;
+		    /* max-height: 510px; */
+		    position: fixed;
+		    height: 80%;
+		    width: 99%;
+		    border-radius: 1px;
+		    border: none;
+		    box-shadow: 0 2px 15px rgba(0,0,0,0.20);
+		    background: white;
+		}
+		.messg {
+		    position: fixed;
+		    bottom: 3%;
+		    right: 6%;
+		    z-index: 1;
+		    padding: 15px !important;
+		    box-shadow: 0px 2px 15px rgba(0,0,0,0.23);
+		    background-color: #3e97e4;
+		    border-radius: 50%;
+		    color: white;
+		    display: block;
+		}
+		.topversion h4 {
+		    font-weight: 900;
+		    padding: 6px;
+		    color: white;
+		}
+		.well.tabs-messages {
+		    background: rgba(0,0,0,0.19);
+		    padding: 0px 17px;
+   			 padding-top: 1%;
+		    margin-bottom: 0%;
+		    border: none;
+		    border-radius: 1px;
+		    margin-top: 3%;
+		    font-weight: 900;
+		    display: block;
+		    /* position: absolute; */
+		    /* width: 100%; */
+		    /* left: 0%; */
+		}
+		.well.tabs-messages p {
+		    margin: -1px;
+		    border-bottom: 5px solid transparent;
+		    padding-bottom: 7px;
+		}
+		.tabs-messages-active{
+			border-bottom: 5px solid #FFf !important;
+		}
+		.topversion {
+		    background-color: #3e97e4 !important;
+		    color: white;
+		    padding: 0px !important;
+    		padding-top: 6px !important;
+		    box-shadow: 0px 10px 15px rgba(0,0,0,0.23) !important;
+		}
+		/*.well.send-msgcontent i {
+		    padding: 3px;
+		    color: white;
+		}*/
 	.features img{
 		margin-left: 40%;
 	}
@@ -196,6 +361,171 @@
 	.welcome_text form{
 		display: none;
 	}
+	.leftmsgs{
+		display: none;
+	}
+	 .collert1{
+            display: block;
+        }
+        .collert{
+            display: none;
+        }
+	.well.msg_conten {
+	    background: transparent;
+	    /* max-height: 563px; */
+	    /* height: 500px; */
+	    overflow-y: scroll;
+	    border-radius: 1px;
+	    position: fixed;
+	    width: 99%;
+	    max-height: 79%;
+	    height: 79%;
+	    border: none;
+	    background-size: cover;
+	    box-shadow: none;
+	}
+	.well.messages-out {
+	    margin-left: 9%;
+	    width: 90%;
+	    padding: 10px;
+	    /* padding-bottom: 10%; */
+	    /* float: right; */
+	    border: none;
+	     clip-path: none; 
+	    background: #B9F38A;
+	}
+	.mobl-bg {
+	    background: linear-gradient(rgba(0,0,0,0.34),rgba(0,0,0,0.34)),url(../img/ferv.jpg);
+	    position: absolute;
+	    top: 0%;
+	        left: .1%;
+	    background-size: cover;
+	    width: 100%;
+	    background-position: top;
+	    height: 100%;
+	    z-index: -1;
+	}
+	.expanded-butt {
+	    display: block;
+	    /* margin-top: 26px; */
+	   padding: 17px !important;
+	   margin-left: 70%;
+	    /* padding: 17px !important; */
+	}
+	.mobil-serv{
+		display: none;
+	}
+	.mobile-serv-1 {
+	    margin-left: 63%;
+	    display: block;
+	}
+	.expanded-but1t {
+	    padding: 5px;
+	     display: block;
+	    margin-top: 10px !important;
+	}
+	 
+	.actbut{
+		display: none;
+	}
+	.well.messages-in {
+	    /* position: absolute; */
+	    width: 86%;
+	    padding: 11px;
+	    border: none;
+	}
+	.well.bcktopversion i {
+	    padding: 5px;
+	    cursor: pointer;
+	    margin-top: 5%;
+	}
+	.well.send-msgcontent input {
+	    border-radius: 50px;
+	}
+	.imic{
+		padding: 3px;
+		border-radius: 50%;
+		color: white;
+		background-color:#3e97e4;
+	}
+	.well.send-msgcontent {
+		    position: fixed;
+		    bottom: -3%;
+		    background:transparent;
+		    border: none;
+		    width: 100%;
+		    border-radius: 1px;
+		}
+		.well.bcktopversion {
+		    padding: 6px;
+		    border-radius: 1px;
+		    background: #3e97e4;
+		    box-shadow: none;
+		    color: white;
+		    border: none;
+		    margin-bottom: 0%;
+		}
+		.well.frends-well {
+		    overflow-y: scroll;
+		    /* max-height: 510px; */
+		    position: fixed;
+		    height: 80%;
+		    width: 99%;
+		    border-radius: 1px;
+		    border: none;
+		    box-shadow: 0 2px 15px rgba(0,0,0,0.20);
+		    background: white;
+		}
+		.messg {
+		    position: fixed;
+		    bottom: 3%;
+		    right: 6%;
+		    z-index: 1;
+		    padding: 15px !important;
+		    box-shadow: 0px 2px 15px rgba(0,0,0,0.23);
+		    background-color: #3e97e4;
+		    border-radius: 50%;
+		    color: white;
+		    display: block;
+		}
+		.topversion h4 {
+		    font-weight: 900;
+		    padding: 6px;
+		    color: white;
+		}
+		.well.tabs-messages {
+		    background: rgba(0,0,0,0.19);
+		     padding: 0px 17px;
+   			 padding-top: 1%;
+		    margin-bottom: 0%;
+		    border: none;
+		    border-radius: 1px;
+		    margin-top: 3%;
+		    font-weight: 900;
+		    display: block;
+		    /* position: absolute; */
+		    /* width: 100%; */
+		    /* left: 0%; */
+		}
+		.well.tabs-messages p {
+		    margin: -1px;
+		    border-bottom: 5px solid transparent;
+		    padding-bottom: 7px;
+		}
+		.tabs-messages-active{
+			border-bottom: 5px  solid #FFC107;
+		}
+		.topversion {
+		    background-color: #3e97e4 !important;
+		    color: white;
+		    padding: 0px !important;
+    		padding-top: 6px !important;
+		    box-shadow: 0px 10px 15px rgba(0,0,0,0.23) !important;
+		}
+		.well.send-msgcontent i {
+		    padding: 5px;
+		    color: white;
+		}
 	.client-card {
 	    background: #3e97e4;
 	    padding: 40px;
@@ -392,6 +722,165 @@
 	.features img{
 		margin-left: 40%;
 	}
+	.leftmsgs{
+		display: none;
+	}
+	.well.msg_conten {
+	    background: transparent;
+	    /* max-height: 563px; */
+	    /* height: 500px; */
+	    overflow-y: scroll;
+	    border-radius: 1px;
+	    position: fixed;
+	    width: 99%;
+	    max-height: 79%;
+	    height: 79%;
+	    border: none;
+	    background-size: cover;
+	    box-shadow: none;
+	}
+	.well.messages-out {
+	    margin-left: 9%;
+	    width: 90%;
+	    padding: 10px;
+	    /* padding-bottom: 10%; */
+	    /* float: right; */
+	    border: none;
+	     clip-path: none; 
+	    background: #B9F38A;
+	}
+	.mobl-bg {
+	    background: linear-gradient(rgba(0,0,0,0.34),rgba(0,0,0,0.34)),url(../img/ferv.jpg);
+	    position: absolute;
+	    top: 0%;
+	        left: .1%;
+	    background-size: cover;
+	    width: 100%;
+	    background-position: top;
+	    height: 100%;
+	    z-index: -1;
+	}
+	.expanded-butt {
+	    display: block;
+	    /* margin-top: 26px; */
+	    padding: 17px !important;
+	   margin-left: 70%;
+	    /* padding: 17px !important; */
+	}
+	.mobil-serv{
+		display: none;
+	}
+	.mobile-serv-1 {
+	    margin-left: 63%;
+	    display: block;
+	}
+	.expanded-but1t {
+	    padding: 5px;
+	     display: block;
+	    margin-top: 10px !important;
+	}
+	 
+	.actbut{
+		display: none;
+	}
+	.well.messages-in {
+	    /* position: absolute; */
+	    width: 86%;
+	    padding: 11px;
+	    border: none;
+	}
+	.well.bcktopversion i {
+	    padding: 5px;
+	    cursor: pointer;
+	    margin-top: 5%;
+	}
+	.well.send-msgcontent input {
+	    border-radius: 50px;
+	}
+	.imic{
+		padding: 3px;
+		border-radius: 50%;
+		color: white;
+		background-color:#3e97e4;
+	}
+	.well.send-msgcontent {
+		    position: fixed;
+		    bottom: -3%;
+		    background:transparent;
+		    border: none;
+		    width: 100%;
+		    border-radius: 1px;
+		}
+		.well.bcktopversion {
+		    padding: 6px;
+		    border-radius: 1px;
+		    background: #3e97e4;
+		    box-shadow: none;
+		    color: white;
+		    border: none;
+		    margin-bottom: 0%;
+		}
+		.well.frends-well {
+		    overflow-y: scroll;
+		    /* max-height: 510px; */
+		    position: fixed;
+		    height: 80%;
+		    width: 99%;
+		    border-radius: 1px;
+		    border: none;
+		    box-shadow: 0 2px 15px rgba(0,0,0,0.20);
+		    background: white;
+		}
+		.messg {
+		    position: fixed;
+		    bottom: 3%;
+		    right: 6%;
+		    z-index: 1;
+		    padding: 15px !important;
+		    box-shadow: 0px 2px 15px rgba(0,0,0,0.23);
+		    background-color: #3e97e4;
+		    border-radius: 50%;
+		    color: white;
+		    display: block;
+		}
+		.topversion h4 {
+		    font-weight: 900;
+		    padding: 6px;
+		    color: white;
+		}
+		.well.tabs-messages {
+		    background: rgba(0,0,0,0.19);
+		     padding: 0px 17px;
+   			 padding-top: 1%;
+		    margin-bottom: 0%;
+		    border: none;
+		    border-radius: 1px;
+		    margin-top: 3%;
+		    font-weight: 900;
+		    display: block;
+		    /* position: absolute; */
+		    /* width: 100%; */
+		    /* left: 0%; */
+		}
+		.well.tabs-messages p {
+		    margin: -1px;
+		    border-bottom: 5px solid transparent;
+		    padding-bottom: 7px;
+		}
+		.tabs-messages-active{
+			border-bottom: 5px  solid #FFC107;
+		}
+		.topversion {
+		    background-color: #3e97e4 !important;
+		    color: white;
+		    padding: 0px !important;
+    		padding-top: 6px !important;
+		    box-shadow: 0px 10px 15px rgba(0,0,0,0.23) !important;
+		}
+		.well.send-msgcontent i {
+		    padding: 5px;
+		    color: white;
+		}
 	.diffrent{
 		text-align: center !important;
 	}
@@ -527,6 +1016,12 @@
 	.client-unshow{
 		display: none;
 	}
+	 .collert1{
+            display: block;
+        }
+        .collert{
+            display: none;
+        }
 	#myBtn {
 	    position: fixed;
 	    bottom: 20px;
